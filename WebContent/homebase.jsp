@@ -19,11 +19,12 @@ body, html {
 
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("20190911_092457_0000.jpg");
-  height: 50%;
+  height: 25%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  
 }
 
 
@@ -71,6 +72,21 @@ body, html {
   </div>
 </nav> 
 </div>
-
+<div class="card">
+  <div class="card-header">
+    Featured
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+<nav class="navbar fixed-bottom navbar navbar-dark bg-dark">
+  <span class="navbar-text">
+    Navbar text with an inline element
+  </span>
+  <a class="navbar-brand" href="#">Fixed bottom</a>
+</nav>
 </body>
 </html>
