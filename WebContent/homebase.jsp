@@ -16,6 +16,10 @@ body, html {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+.vertical-text {
+transform: rotate(90deg);
+transform-origin: left top 0;
+}
 
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("20190911_092457_0000.jpg");
@@ -72,21 +76,114 @@ body, html {
   </div>
 </nav> 
 </div>
+<div class="p-3 mb-2  text-white"style="background-color:#1a1919;">
 <div class="card">
-  <div class="card-header">
-    Featured
-  </div>
-  <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+
+  <div class="card-body p-3 mb-2 text-white" style="background-color:#1a1919;"> 
+  <h5 class="card-title">Special title treatment</h5>
+    <div class="container">         
+  <table class="table table" style="background-color:#393b40;">
+    <thead>
+     
+    </thead>
+    <tbody>
+      <tr>
+        <td><div class="card" style="width: 14rem;">
+            <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
+            <div class="card-body">
+            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            </div>
+        </td>
+        <td><div class="card" style="width: 14rem;">
+            <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
+            <div class="card-body">
+            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            </div></td>
+        <td><div class="card" style="width: 14rem;">
+            <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
+            <div class="card-body">
+            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            </div></td>
+            <td><div class="card" style="width: 14rem;">
+            <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
+            <div class="card-body">
+            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            </div></td>
+             <td><div class="card" style="width: 14rem;">
+            <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
+            <div class="card-body">
+            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            </div></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+    
   </div>
 </div>
+<div class="card">
+
+  <div class="card-body p-3 mb-2 text-white" style="background-color:#1a1919;">
+    <h5 class="card-title">Special title treatment</h5>
+    
+    <div class="container">         
+  <table class="table table" style="background-color:#393b40;">
+    <thead>
+    
+    </thead>
+    <tbody>
+      <tr>
+        <td><div class="card" style="width: 14rem;">
+            <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
+            <div class="card-body">
+            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            </div>
+        </td>
+        <td><div class="card" style="width: 14rem;">
+            <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
+            <div class="card-body">
+            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            </div></td>
+        <td><div class="card" style="width: 14rem;">
+            <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
+            <div class="card-body">
+            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            </div></td>
+            <td><div class="card" style="width: 14rem;">
+            <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
+            <div class="card-body">
+            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            </div></td>
+            <td><div class="card" style="width: 14rem;">
+            <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
+            <div class="card-body">
+            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            </div></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+    
+  </div>
+</div>
+</div>
+<div>
 <nav class="navbar fixed-bottom navbar navbar-dark bg-dark">
   <span class="navbar-text">
     Navbar text with an inline element
   </span>
   <a class="navbar-brand" href="#">Fixed bottom</a>
 </nav>
+</div>
 </body>
 </html>
