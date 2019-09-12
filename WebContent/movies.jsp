@@ -52,7 +52,7 @@ transform-origin: left top 0;
         <a class="nav-link" href="homebase.jsp">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="movies.jsp">Movie</a>
+        <a class="nav-link" href="#">Movie</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -81,7 +81,53 @@ transform-origin: left top 0;
 
 <div class="container ">
     <br/>
-	
+	<div class="row justify-content-center" style="background-color:#1a1919;">
+                        <div class="col-12 col-md-10 col-lg-8" style="background-color:#1a1919;">
+                            <form class="card card-sm" style="background-color:#1a1919;">
+                                <div class="card-body row no-gutters align-items-center">
+                                    <div class="col-auto">
+                                        <i class="fas fa-search h4 text-body"></i>
+                                    </div>
+                                    <!--end of col-->
+                                    <div class="col">
+                                        <input class="form-control form-control-lg form-control-borderless" type="search" placeholder="Search topics or keywords">
+                                    </div>
+                                    <!--end of col-->
+                                    <div class="col-auto">
+                                        <button class="btn btn-lg btn-success" type="submit">Search</button>
+                                    </div>
+                                    <!--end of col-->
+                                </div>
+                                <div class="dropdown row justify-content-center">
+                                 <button class="btn btn-primary dropdown-toggle" style="margin:20px;" type="button" data-toggle="dropdown">Dropdown Example
+                                 <span class="caret"></span></button>
+                                   <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">HTML</a></li>
+                                      <li><a class="dropdown-item" href="#">CSS</a></li>
+                                      <li><a class="dropdown-item" href="#">JavaScript</a></li>
+                                    </ul>
+                                    
+                                    
+                                  <button class="btn btn-primary dropdown-toggle" style="margin:20px;" type="button" data-toggle="dropdown">Dropdown Example
+                                 <span class="caret"></span></button>
+                                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                      <li><a href="#">HTML</a></li>
+                                      <li><a href="#">CSS</a></li>
+                                      <li><a href="#">JavaScript</a></li>
+                                    </ul> 
+                                    
+                                 <button class="btn btn-primary dropdown-toggle" style="margin:20px;" type="button" data-toggle="dropdown">Dropdown Example
+                                 <span class="caret"></span></button>
+                                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                      <li><a href="#">HTML</a></li>
+                                      <li><a href="#">CSS</a></li>
+                                      <li><a href="#">JavaScript</a></li>
+                                    </ul>    
+                                 </div>
+                            </form>
+                        </div>
+                        <!--end of col-->
+                    </div>
                     
   
     <div class="container row justify-content-center">         
@@ -168,8 +214,50 @@ transform-origin: left top 0;
       </tr>
     </tbody>
   </table>
-</div></br></br>
+</div></br>
+
+     <div class="container  row justify-content-center">         
+  <table class="table table " style="background-color:#393b40;">
+    <thead>
     
+    </thead>
+    <tbody>
+      <tr>
+        <td><div class="card" style="width: 14rem;">
+            <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
+            <div class="card-body">
+            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            </div>
+        </td>
+        <td><div class="card" style="width: 14rem;">
+            <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
+            <div class="card-body">
+            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            </div></td>
+        <td><div class="card" style="width: 14rem;">
+            <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
+            <div class="card-body">
+            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            </div></td>
+            <td><div class="card" style="width: 14rem;">
+            <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
+            <div class="card-body">
+            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            </div></td>
+            <td><div class="card" style="width: 14rem;">
+            <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
+            <div class="card-body">
+            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            </div></td>
+      </tr>
+    </tbody>
+  </table>
+</div></br></br>    
 
 </div>
 <div>
