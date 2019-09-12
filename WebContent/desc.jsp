@@ -12,16 +12,26 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   
  <style>
+
 body, html {
   height: 100%;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  
 }
 .vertical-text {
 transform: rotate(90deg);
 transform-origin: left top 0;
 }
 
+.hero-image2 {
+  padding: 25px;
+  background-image: url("3b1a1b6cadc501a875cd0cee645804e1.jpg");
+  background-color: #cccccc;
+  
+  background-repeat:no-repeat;
+  background-size: initial;
+}
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("20190911_092457_0000.jpg");
   height: 25%;
@@ -77,102 +87,82 @@ transform-origin: left top 0;
 </nav> 
 </div>
 
-<div class="p-3 mb-2  text-white"style="background-color:#1a1919;">
-
-<div class="container ">
-    <br/>
-	
+<div class=" hero-image2"></br></br></br></br>
+<div class="row ">
+  <div class="col-2"></div>
+  <div class="col-3 "></br></br></br></br><div class="card" style="width: 18rem;">
+            <img class="card-img-top " src="lionking.jpg" alt="Card image cap">
+            <div class="card-body">
+            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            </div></div>           
+  <div class="col-2"></br></br></br></br><table class="table table-dark text-success font-weight-bold font-italic">
+    <thead>
+      <tr>
+        <th>Firstname</th>    
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+       <td>John</td>       
+     </tr>
+     <tr>
+       <td>John</td>       
+     </tr> 
+     <tr>
+       <td>John</td>       
+     </tr> 
+     <tr>
+       <td>John</td>       
+     </tr> 
+     <tr>
+       <td>John</td>       
+     </tr>   
+    </tbody>
+  </table>
                     
-  
-    <div class="container row justify-content-center">         
-  <table class="table table"  style="background-color:#393b40;">
+                     </div>
+  <div class="col-2"><div class="container">
+             
+  <table class="table table-borderless">
     <thead>
-     
+      <tr>       
+      </tr>
     </thead>
     <tbody>
       <tr>
-        <td><div class="card" style="width: 14rem;">
-            <img class="card-img-top"  src="lionking.jpg" alt="Card image cap">
+        <td><div class="card" style="width: 10rem;">
+            <img class="card-img-top " src="lionking.jpg" alt="Card image cap">
             <div class="card-body">
-            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="desc.jsp" class="stretched-link">Go somewhere</a>
-            </div>
-            </div>
-        </td>
-        <td><div class="card" style="width: 14rem;">
-            <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
-            <div class="card-body">
-            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-secondary">Some quick example.</p>
             </div>
             </div></td>
-        <td><div class="card" style="width: 14rem;">
-            <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
+        <td><div class="card" style="width: 10rem;">
+            <img class="card-img-top " src="lionking.jpg" alt="Card image cap">
             <div class="card-body">
-            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-secondary">Some quick example.</p>
             </div>
-            </div></td>
-            <td><div class="card" style="width: 14rem;">
-            <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
-            <div class="card-body">
-            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-            </div></td>
-             <td><div class="card" style="width: 14rem;">
-            <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
-            <div class="card-body">
-            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-            </div></td>
+            </div></td>       
       </tr>
-    </tbody>
-  </table>
-</div></br>
-    
-    <div class="container  row justify-content-center">         
-  <table class="table table " style="background-color:#393b40;">
-    <thead>
-    
-    </thead>
-    <tbody>
       <tr>
-        <td><div class="card" style="width: 14rem;">
-            <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
+        <td><div class="card" style="width: 10rem;">
+            <img class="card-img-top " src="lionking.jpg" alt="Card image cap">
             <div class="card-body">
-            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-            </div>
-        </td>
-        <td><div class="card" style="width: 14rem;">
-            <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
-            <div class="card-body">
-            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-secondary">Some quick example.</p>
             </div>
             </div></td>
-        <td><div class="card" style="width: 14rem;">
-            <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
+        <td><div class="card" style="width: 10rem;">
+            <img class="card-img-top " src="lionking.jpg" alt="Card image cap">
             <div class="card-body">
-            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-secondary">Some quick example.</p>
             </div>
-            </div></td>
-            <td><div class="card" style="width: 14rem;">
-            <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
-            <div class="card-body">
-            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-            </div></td>
-            <td><div class="card" style="width: 14rem;">
-            <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
-            <div class="card-body">
-            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-            </div></td>
-      </tr>
+            </div></td>        
+      </tr>     
     </tbody>
   </table>
-</div></br></br>
-    
-
 </div>
+  </div>
+</div></br></br></br></br>
 <div>
 <nav class="navbar fixed-bottom navbar navbar-dark bg-dark">
   <span class="navbar-text">
