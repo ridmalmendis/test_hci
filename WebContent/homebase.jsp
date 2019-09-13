@@ -85,87 +85,99 @@ transform-origin: left top 0;
                     
   
     <div class="container row justify-content-center">         
-  <table class="table table"  style="background-color:#393b40;">
+  <table class="table table-borderless" style="background-color:#393b40;">
     <thead>
-     
     </thead>
     <tbody>
       <tr>
-        <td><div class="card" style="width: 14rem;">
+        <td><div class="card" style="background-color:#1a1919;width: 14rem;">
             <img class="card-img-top"  src="lionking.jpg" alt="Card image cap">
             <div class="card-body">
-            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="desc.jsp" class="stretched-link">Go somewhere</a>
+            <p class="card-text text-secondary">film name</p>
+            <a href="desc.jsp" class="stretched-link">Download</a>
             </div>
             </div>
         </td>
-        <td><div class="card" style="width: 14rem;">
+        <td><div class="card" style="background-color:#1a1919;width: 14rem;">
             <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
             <div class="card-body">
-            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-secondary">film name</p>
+            <a href="desc.jsp" class="stretched-link">Download</a>
             </div>
             </div></td>
-        <td><div class="card" style="width: 14rem;">
+        <td><div class="card" style="background-color:#1a1919;width: 14rem;">
             <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
             <div class="card-body">
-            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-secondary">film name</p>
+            <a href="desc.jsp" class="stretched-link">Download</a>
             </div>
             </div></td>
-            <td><div class="card" style="width: 14rem;">
+            <td><div class="card" style="background-color:#1a1919;width: 14rem;">
             <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
             <div class="card-body">
-            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-secondary">film name</p>
+            <a href="desc.jsp" class="stretched-link">Download</a>
             </div>
             </div></td>
-             <td><div class="card" style="width: 14rem;">
+             <td><div class="card" style="background-color:#1a1919;width: 14rem;">
             <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
             <div class="card-body">
-            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-secondary">film name </p>
+            <a href="desc.jsp" class="stretched-link">Download</a>
             </div>
             </div></td>
+             <td class="align-bottom" bgcolor="#1a1919"><a class="btn btn-success" href="NewFile.jsp" role="button">More</a></td>
       </tr>
+     
     </tbody>
+   
   </table>
 </div></br>
     
     <div class="container  row justify-content-center">         
-  <table class="table table " style="background-color:#393b40;">
+  <table class="table table-borderless" style="background-color:#393b40;">
     <thead>
     
     </thead>
     <tbody>
       <tr>
-        <td><div class="card" style="width: 14rem;">
+        <td><div class="card" style="background-color:#1a1919;width: 14rem;">
             <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
             <div class="card-body">
-            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-secondary">film name</p>
+            <a href="desc.jsp" class="stretched-link">Download</a>
             </div>
             </div>
         </td>
-        <td><div class="card" style="width: 14rem;">
+        <td><div class="card" style="background-color:#1a1919;width: 14rem;">
             <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
             <div class="card-body">
-            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-secondary">film name</p>
+            <a href="desc.jsp" class="stretched-link">Download</a>
             </div>
             </div></td>
-        <td><div class="card" style="width: 14rem;">
+        <td><div class="card" style="background-color:#1a1919;width: 14rem;">
             <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
             <div class="card-body">
-            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-secondary">film name</p>
+            <a href="desc.jsp" class="stretched-link">Download</a>
             </div>
             </div></td>
-            <td><div class="card" style="width: 14rem;">
+            <td><div class="card" style="background-color:#1a1919;width: 14rem;">
             <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
             <div class="card-body">
-            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-secondary">film name</p>
+            <a href="desc.jsp" class="stretched-link">Download</a>
             </div>
             </div></td>
-            <td><div class="card" style="width: 14rem;">
+            <td><div class="card" style="background-color:#1a1919;width: 14rem;">
             <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
             <div class="card-body">
-            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-secondary">film name</p>
+            <a href="desc.jsp" class="stretched-link">Download</a>
             </div>
             </div></td>
+            <td class="align-bottom" bgcolor="#1a1919"><a class="btn btn-success" href="NewFile.jsp" role="button">More</a></td>
       </tr>
     </tbody>
   </table>
