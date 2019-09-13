@@ -87,13 +87,36 @@ transform-origin: left top 0;
 </nav> 
 </div>
 
-<div class=" hero-image2"></br></br></br></br>
+<div class=" hero-image2">
+<div class="d-flex justify-content-between">
+      <div>
+         
+      </div>
+      <div>
+
+
+<div id="google_translate_element"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+      </div>
+ </div>
+
+</br></br></br></br>
 <div class="row ">
   <div class="col-2"></div>
-  <div class="col-3 "></br></br></br></br><div class="card" style="width: 18rem;">
-            <img class="card-img-top " src="lionking.jpg" alt="Card image cap">
+  <div class="col-3 "></br></br></br></br><div class="card" style="background-color:#1a1919;width: 18rem;">
+            <img class="card-img-top"  src="lionking.jpg" alt="Card image cap">
             <div class="card-body">
-            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-secondary">film name</p>
+            <a href="desc.jsp" class="stretched-link">Download</a>
             </div>
             </div></div>           
   <div class="col-2"></br></br></br></br><table class="table table-dark text-success font-weight-bold font-italic">
@@ -131,30 +154,34 @@ transform-origin: left top 0;
     </thead>
     <tbody>
       <tr>
-        <td><div class="card" style="width: 10rem;">
-            <img class="card-img-top " src="lionking.jpg" alt="Card image cap">
+        <td><div class="card" style="background-color:#1a1919;width: 10rem;">
+            <img class="card-img-top"  src="lionking.jpg" alt="Card image cap">
             <div class="card-body">
-            <p class="card-text text-secondary">Some quick example.</p>
+            <p class="card-text text-secondary">film name</p>
+            <a href="desc.jsp" class="stretched-link">Download</a>
             </div>
             </div></td>
-        <td><div class="card" style="width: 10rem;">
-            <img class="card-img-top " src="lionking.jpg" alt="Card image cap">
+        <td><div class="card" style="background-color:#1a1919;width: 10rem;">
+            <img class="card-img-top"  src="lionking.jpg" alt="Card image cap">
             <div class="card-body">
-            <p class="card-text text-secondary">Some quick example.</p>
+            <p class="card-text text-secondary">film name</p>
+            <a href="desc.jsp" class="stretched-link">Download</a>
             </div>
             </div></td>       
       </tr>
       <tr>
-        <td><div class="card" style="width: 10rem;">
-            <img class="card-img-top " src="lionking.jpg" alt="Card image cap">
+        <td><div class="card" style="background-color:#1a1919;width: 10rem;">
+            <img class="card-img-top"  src="lionking.jpg" alt="Card image cap">
             <div class="card-body">
-            <p class="card-text text-secondary">Some quick example.</p>
+            <p class="card-text text-secondary">film name</p>
+            <a href="desc.jsp" class="stretched-link">Download</a>
             </div>
             </div></td>
-        <td><div class="card" style="width: 10rem;">
-            <img class="card-img-top " src="lionking.jpg" alt="Card image cap">
+        <td><div class="card" style="background-color:#1a1919;width: 10rem;">
+            <img class="card-img-top"  src="lionking.jpg" alt="Card image cap">
             <div class="card-body">
-            <p class="card-text text-secondary">Some quick example.</p>
+            <p class="card-text text-secondary">film name</p>
+            <a href="desc.jsp" class="stretched-link">Download</a>
             </div>
             </div></td>        
       </tr>     
