@@ -38,6 +38,19 @@ transform-origin: left top 0;
 </head>
 <body>
 <div class="hero-image"> 
+<form class="float-right " >
+  
+  <div class="form-row align-items-center ">
+    
+    <div class="col-auto " >
+      
+ <div class="col-auto">
+      <button type="login" class="form-control-sm btn btn-outline-info mb-2 ">Log Out</button>
+    </div>
+  </div>
+  </div>
+ 
+</form>
 </div>
 <div>
  <nav class="navbar navbar-expand-xl navbar navbar-dark bg-dark">
@@ -51,23 +64,17 @@ transform-origin: left top 0;
       <li class="nav-item active">
         <a class="nav-link" href="homebase.jsp">Home <span class="sr-only">(current)</span></a>
       </li>
+      
       <li class="nav-item">
-        <a class="nav-link" href="#">Movie</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Tv
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
+        <a class="nav-link" href="movies.jsp">TV</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
+        <a class="nav-link" href="newcoll.jsp">Collection</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="movies.jsp">Category</a>
+      </li>
+     
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -90,7 +97,7 @@ transform-origin: left top 0;
                                     </div>
                                     <!--end of col-->
                                     <div class="col">
-                                        <input class="form-control form-control-lg form-control-borderless" type="search" placeholder="Search topics or keywords">
+                                        <input class="form-control form-control-lg form-control-borderless" type="search" placeholder="Movie Name">
                                     </div>
                                     <!--end of col-->
                                     <div class="col-auto">
@@ -99,29 +106,29 @@ transform-origin: left top 0;
                                     <!--end of col-->
                                 </div>
                                 <div class="dropdown row justify-content-center">
-                                 <button class="btn btn-primary dropdown-toggle" style="margin:20px;" type="button" data-toggle="dropdown">Dropdown Example
+                                 <button class="btn btn-primary dropdown-toggle" style="margin:20px;" type="button" data-toggle="dropdown">quality
                                  <span class="caret"></span></button>
                                    <ul class="dropdown-menu">
-                                      <li><a class="dropdown-item" href="#">HTML</a></li>
-                                      <li><a class="dropdown-item" href="#">CSS</a></li>
-                                      <li><a class="dropdown-item" href="#">JavaScript</a></li>
+                                      <li><a class="dropdown-item" href="#">720px</a></li>
+                                      <li><a class="dropdown-item" href="#">1028px</a></li>
+                                      <li><a class="dropdown-item" href="#">WEB RIP</a></li>
                                     </ul>
                                     
                                     
-                                  <button class="btn btn-primary dropdown-toggle" style="margin:20px;" type="button" data-toggle="dropdown">Dropdown Example
+                                  <button class="btn btn-primary dropdown-toggle" style="margin:20px;" type="button" data-toggle="dropdown">year
                                  <span class="caret"></span></button>
                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                      <li><a href="#">HTML</a></li>
-                                      <li><a href="#">CSS</a></li>
-                                      <li><a href="#">JavaScript</a></li>
+                                      <li><a href="#">2019</a></li>
+                                      <li><a href="#">2018</a></li>
+                                      <li><a href="#">2017</a></li>
                                     </ul> 
                                     
-                                 <button class="btn btn-primary dropdown-toggle" style="margin:20px;" type="button" data-toggle="dropdown">Dropdown Example
+                                 <button class="btn btn-primary dropdown-toggle" style="margin:20px;" type="button" data-toggle="dropdown">rating
                                  <span class="caret"></span></button>
                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                      <li><a href="#">HTML</a></li>
-                                      <li><a href="#">CSS</a></li>
-                                      <li><a href="#">JavaScript</a></li>
+                                      <li><a href="#">rating 0.1</a></li>
+                                      <li><a href="#">rating 0.2</a></li>
+                                      <li><a href="#">rating 0.3</a></li>
                                     </ul>    
                                  </div>
                             </form>
@@ -140,34 +147,40 @@ transform-origin: left top 0;
         <td><div class="card" style="width: 14rem;">
             <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
             <div class="card-body">
-            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-secondary">film name</p>
+            <a href="desc.jsp" class="stretched-link">Download</a>
             </div>
             </div>
         </td>
         <td><div class="card" style="width: 14rem;">
             <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
             <div class="card-body">
-            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-secondary">film name</p>
+            <a href="desc.jsp" class="stretched-link">Download</a>
             </div>
             </div></td>
         <td><div class="card" style="width: 14rem;">
             <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
             <div class="card-body">
-            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-secondary">film name</p>
+            <a href="desc.jsp" class="stretched-link">Download</a>
             </div>
             </div></td>
             <td><div class="card" style="width: 14rem;">
             <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
             <div class="card-body">
-            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-secondary">film name</p>
+            <a href="desc.jsp" class="stretched-link">Download</a>
             </div>
             </div></td>
              <td><div class="card" style="width: 14rem;">
             <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
             <div class="card-body">
-            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-secondary">film name</p>
+            <a href="desc.jsp" class="stretched-link">Download</a>
             </div>
             </div></td>
+            <td class="align-bottom" bgcolor="#1a1919"><a class="btn btn-success" href="ridmovie.jsp" role="button">More</a></td>
       </tr>
     </tbody>
   </table>
@@ -183,34 +196,40 @@ transform-origin: left top 0;
         <td><div class="card" style="width: 14rem;">
             <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
             <div class="card-body">
-            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-secondary">film name</p>
+            <a href="desc.jsp" class="stretched-link">Download</a>
             </div>
             </div>
         </td>
         <td><div class="card" style="width: 14rem;">
             <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
             <div class="card-body">
-            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-secondary">film name</p>
+            <a href="desc.jsp" class="stretched-link">Download</a>
             </div>
             </div></td>
         <td><div class="card" style="width: 14rem;">
             <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
             <div class="card-body">
-            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-secondary">film name</p>
+            <a href="desc.jsp" class="stretched-link">Download</a>
             </div>
             </div></td>
             <td><div class="card" style="width: 14rem;">
             <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
             <div class="card-body">
-            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-secondary">film name</p>
+            <a href="desc.jsp" class="stretched-link">Download</a>
             </div>
             </div></td>
             <td><div class="card" style="width: 14rem;">
             <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
             <div class="card-body">
-            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-secondary">film name</p>
+            <a href="desc.jsp" class="stretched-link">Download</a>
             </div>
             </div></td>
+            <td class="align-bottom" bgcolor="#1a1919"><a class="btn btn-success" href="ridmovie.jsp" role="button">More</a></td>
       </tr>
     </tbody>
   </table>
@@ -226,34 +245,40 @@ transform-origin: left top 0;
         <td><div class="card" style="width: 14rem;">
             <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
             <div class="card-body">
-            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-secondary">film name</p>
+            <a href="desc.jsp" class="stretched-link">Download</a>
             </div>
             </div>
         </td>
         <td><div class="card" style="width: 14rem;">
             <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
             <div class="card-body">
-            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-secondary">film name</p>
+            <a href="desc.jsp" class="stretched-link">Download</a>
             </div>
             </div></td>
         <td><div class="card" style="width: 14rem;">
             <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
             <div class="card-body">
-            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-secondary">film name</p>
+            <a href="desc.jsp" class="stretched-link">Download</a>
             </div>
             </div></td>
             <td><div class="card" style="width: 14rem;">
             <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
             <div class="card-body">
-            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-secondary">film name</p>
+            <a href="desc.jsp" class="stretched-link">Download</a>
             </div>
             </div></td>
             <td><div class="card" style="width: 14rem;">
             <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
             <div class="card-body">
-            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-secondary">film name</p>
+            <a href="desc.jsp" class="stretched-link">Download</a>
             </div>
             </div></td>
+            <td class="align-bottom" bgcolor="#1a1919"><a class="btn btn-success" href="ridmovie.jsp" role="button">More</a></td>
       </tr>
     </tbody>
   </table>
@@ -263,9 +288,10 @@ transform-origin: left top 0;
 <div>
 <nav class="navbar fixed-bottom navbar navbar-dark bg-dark">
   <span class="navbar-text">
-    Navbar text with an inline element
+   <a class="navbar-brand" href="#"> Baiscoplk.com</a>
+   
   </span>
-  <a class="navbar-brand" href="#">Fixed bottom</a>
+  <a class="navbar-brand" href="abous.jsp">contact us</a>
 </nav>
 </div>
 </body>

@@ -48,6 +48,19 @@ transform-origin: left top 0;
 </head>
 <body>
 <div class="hero-image"> 
+<form class="float-right " >
+  
+  <div class="form-row align-items-center ">
+    
+    <div class="col-auto " >
+      
+ <div class="col-auto">
+      <button type="login" class="form-control-sm btn btn-outline-info mb-2 ">Log Out</button>
+    </div>
+  </div>
+  </div>
+ 
+</form>
 </div>
 <div>
  <nav class="navbar navbar-expand-xl navbar navbar-dark bg-dark">
@@ -64,20 +77,17 @@ transform-origin: left top 0;
       <li class="nav-item">
         <a class="nav-link" href="movies.jsp">Movie</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Tv
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="movies.jsp">TV</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
+        <a class="nav-link" href="movies.jsp">Collection</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="movies.jsp">Category</a>
+      </li>
+     
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -86,6 +96,7 @@ transform-origin: left top 0;
   </div>
 </nav> 
 </div>
+
 
 <div class=" hero-image2">
 <div class="d-flex justify-content-between">
@@ -122,24 +133,24 @@ function googleTranslateElementInit() {
   <div class="col-2"></br></br></br></br><table class="table table-dark text-success font-weight-bold font-italic">
     <thead>
       <tr>
-        <th>Firstname</th>    
+        <th>film name</th>    
       </tr>
     </thead>
     <tbody>
       <tr>
-       <td>John</td>       
+       <td>quality</td>       
      </tr>
      <tr>
-       <td>John</td>       
+       <td>year</td>       
      </tr> 
      <tr>
-       <td>John</td>       
+       <td>zip</td>       
      </tr> 
      <tr>
-       <td>John</td>       
+       <td>derect</td>       
      </tr> 
      <tr>
-       <td>John</td>       
+       <td>download</td>       
      </tr>   
     </tbody>
   </table>
@@ -193,9 +204,10 @@ function googleTranslateElementInit() {
 <div>
 <nav class="navbar fixed-bottom navbar navbar-dark bg-dark">
   <span class="navbar-text">
-    Navbar text with an inline element
+   <a class="navbar-brand" href="#"> Baiscoplk.com</a>
+   
   </span>
-  <a class="navbar-brand" href="#">Fixed bottom</a>
+  <a class="navbar-brand" href="abous.jsp">contact us</a>
 </nav>
 </div>
 </body>

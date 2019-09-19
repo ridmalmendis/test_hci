@@ -34,58 +34,26 @@ transform-origin: left top 0;
 
 
 
-
 </style>
 </head>
 <body>
 <div class="hero-image"> 
-
-	<form class="float-right " >
-	
+<form class="float-right " >
+  
   <div class="form-row align-items-center ">
     
     <div class="col-auto " >
-      <label class="sr-only " for="inlineFormInputGroup">Username</label>
-      <div class="input-group ">
-        <div class="input-group-prepend ">
-          <div class="input-group-text form-control-sm">@</div>
-        </div>
-        <input type="text" class="form-control form-control-sm " id="inlineFormInputGroup" placeholder="Username" required="required">
-      </div>
-    </div>
-    
-    <div class="col-auto " >
-      <label class="sr-only input100" for="inlineFormInput">Password</label>
-      <input type="password" class="form-control form-control-sm" id="inlineFormInput" placeholder="Password" required="required">
-    </div>
-    
-    
-    
-   <div class="col-auto my-1">
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="autoSizingCheck2">
-        <label class="form-check-label" for="autoSizingCheck2">
-          <p class="text-primary">Remember me</p>
-        </label>
-      </div>
-    </div>
+      
  <div class="col-auto">
-      <button type="login" class="form-control-sm btn btn-primary mb-2 ">Login</button>
+      <button type="login" class="form-control-sm btn btn-outline-info mb-2 ">Log Out</button>
     </div>
-    
-     <div class="col-auto">
-     <a class="form-control-sm btn btn-success mb-2 " href="log.jsp" role="button">Registration</a></td>
-  	 </div>
   </div>
-  <div >
-  <a href="forgrt.jsp">
-  <button type="button" class="btn btn-link ">forgot password</button> 
-	</a>
-</div>
+  </div>
+ 
 </form>
   </div>
 
-
+</div>
 <div>
  <nav class="navbar navbar-expand-xl navbar navbar-dark bg-dark">
   <a class="navbar-brand" href="#">Navbar</a>
@@ -128,28 +96,20 @@ transform-origin: left top 0;
 
 <div class="container ">
     <br/>
-	
+	 <center><h1 class="float-center text-primary">New Release Movies</h1></center>
+	 
+	 <br>
                     
   
     <div class="container row justify-content-center">         
-  <table class="table table-borderless" style="background-color:#393b40;">
+  <table class="table table"  style="background-color:#393b40;">
     <thead>
+     
     </thead>
     <tbody>
       <tr>
-      <h1 class=" text-primary">New Release Movies</h1>
-      
-      
         <td><div class="card" style="background-color:#1a1919;width: 14rem;">
-            <img class="card-img-top"  src="16.png" alt="Card image cap">
-            <div class="card-body">
-            <p class="card-text text-secondary">film name</p>
-            <a href="desc.jsp" class="stretched-link">Download</a>
-            </div>
-            </div>
-        </td>
-         <td><div class="card" style="background-color:#1a1919;width: 14rem;">
-            <img class="card-img-top"  src="16.png" alt="Card image cap">
+            <img class="card-img-top" src=New-PercyJackson-Movie-Posters-upcoming-movies-8946410-266-400.jpg alt="Card image cap">
             <div class="card-body">
             <p class="card-text text-secondary">film name</p>
             <a href="desc.jsp" class="stretched-link">Download</a>
@@ -157,55 +117,51 @@ transform-origin: left top 0;
             </div>
         </td>
         <td><div class="card" style="background-color:#1a1919;width: 14rem;">
-            <img class="card-img-top"  src="16.png" alt="Card image cap">
+            <img class="card-img-top" src="New-PercyJackson-Movie-Posters-upcoming-movies-8946410-266-400.jpg" alt="Card image cap">
             <div class="card-body">
             <p class="card-text text-secondary">film name</p>
             <a href="desc.jsp" class="stretched-link">Download</a>
             </div>
             </div>
         </td>
-             <td><div class="card" style="background-color:#1a1919;width: 14rem;">
-            <img class="card-img-top"  src="16.png" alt="Card image cap">
+        <td><div class="card" style="background-color:#1a1919;width: 14rem;">
+            <img class="card-img-top" src="New-PercyJackson-Movie-Posters-upcoming-movies-8946410-266-400.jpg" alt="Card image cap">
             <div class="card-body">
             <p class="card-text text-secondary">film name</p>
             <a href="desc.jsp" class="stretched-link">Download</a>
             </div>
             </div>
         </td>
-             <td><div class="card" style="background-color:#1a1919;width: 14rem;">
-            <img class="card-img-top"  src="16.png" alt="Card image cap">
+           <td><div class="card" style="background-color:#1a1919;width: 14rem;">
+            <img class="card-img-top" src="New-PercyJackson-Movie-Posters-upcoming-movies-8946410-266-400.jpg" alt="Card image cap">
             <div class="card-body">
             <p class="card-text text-secondary">film name</p>
             <a href="desc.jsp" class="stretched-link">Download</a>
             </div>
             </div>
         </td>
-             <td class="align-bottom" bgcolor="#1a1919"><a class="btn btn-outline-info" href="newrel.jsp" role="button">More</a></td>
+            <td><div class="card" style="background-color:#1a1919;width: 14rem;">
+            <img class="card-img-top" src="New-PercyJackson-Movie-Posters-upcoming-movies-8946410-266-400.jpg" alt="Card image cap">
+            <div class="card-body">
+            <p class="card-text text-secondary">film name</p>
+            <a href="desc.jsp" class="stretched-link">Download</a>
+            </div>
+            </div>
+        </td>
       </tr>
-     
     </tbody>
-   
   </table>
 </div></br>
     
     <div class="container  row justify-content-center">         
-  <table class="table table-borderless" style="background-color:#393b40;">
+  <table class="table table " style="background-color:#393b40;">
     <thead>
     
     </thead>
     <tbody>
       <tr>
-      <h1 class="text-primary">Most Popular Movie</h1>
-        <td><div class="card" style="background-color:#1a1919;width: 14rem;">
-            <img class="card-img-top"  src="New-PercyJackson-Movie-Posters-upcoming-movies-8946410-266-400.jpg" alt="Card image cap">
-            <div class="card-body">
-            <p class="card-text text-secondary">film name</p>
-            <a href="desc.jsp" class="stretched-link">Download</a>
-            </div>
-            </div>
-        </td>
-         <td><div class="card" style="background-color:#1a1919;width: 14rem;">
-            <img class="card-img-top"  src="New-PercyJackson-Movie-Posters-upcoming-movies-8946410-266-400.jpg" alt="Card image cap">
+       <td><div class="card" style="background-color:#1a1919;width: 14rem;">
+            <img class="card-img-top" src="16.png" alt="Card image cap">
             <div class="card-body">
             <p class="card-text text-secondary">film name</p>
             <a href="desc.jsp" class="stretched-link">Download</a>
@@ -213,84 +169,103 @@ transform-origin: left top 0;
             </div>
         </td>
         <td><div class="card" style="background-color:#1a1919;width: 14rem;">
-            <img class="card-img-top"  src="New-PercyJackson-Movie-Posters-upcoming-movies-8946410-266-400.jpg" alt="Card image cap">
+            <img class="card-img-top" src="16.png" alt="Card image cap">
             <div class="card-body">
             <p class="card-text text-secondary">film name</p>
             <a href="desc.jsp" class="stretched-link">Download</a>
             </div>
             </div>
         </td>
-             <td><div class="card" style="background-color:#1a1919;width: 14rem;">
-            <img class="card-img-top"  src="New-PercyJackson-Movie-Posters-upcoming-movies-8946410-266-400.jpg" alt="Card image cap">
+        <td><div class="card" style="background-color:#1a1919;width: 14rem;">
+            <img class="card-img-top" src="16.png" alt="Card image cap">
             <div class="card-body">
             <p class="card-text text-secondary">film name</p>
             <a href="desc.jsp" class="stretched-link">Download</a>
             </div>
             </div>
         </td>
-             <td><div class="card" style="background-color:#1a1919;width: 14rem;">
-            <img class="card-img-top"  src="New-PercyJackson-Movie-Posters-upcoming-movies-8946410-266-400.jpg" alt="Card image cap">
+            <td><div class="card" style="background-color:#1a1919;width: 14rem;">
+            <img class="card-img-top" src="16.png" alt="Card image cap">
             <div class="card-body">
             <p class="card-text text-secondary">film name</p>
             <a href="desc.jsp" class="stretched-link">Download</a>
             </div>
             </div>
         </td>
-            <td class="align-bottom " bgcolor="#1a1919"><a class="btn btn-outline-info" href="popmovie.jsp" role="button">More</a></td>
+            <td><div class="card" style="background-color:#1a1919;width: 14rem;">
+            <img class="card-img-top" src="16.png" alt="Card image cap">
+            <div class="card-body">
+            <p class="card-text text-secondary">film name</p>
+            <a href="desc.jsp" class="stretched-link">Download</a>
+            </div>
+            </div>
+        </td>
       </tr>
     </tbody>
   </table>
-</div></br></br>
+</div></br>
+
+     <div class="container  row justify-content-center">         
+  <table class="table table " style="background-color:#393b40;">
+    <thead>
     
+    </thead>
+    <tbody>
+      <tr>
+        <td><div class="card" style="background-color:#1a1919;width: 14rem;">
+            <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
+            <div class="card-body">
+            <p class="card-text text-secondary">film name</p>
+            <a href="desc.jsp" class="stretched-link">Download</a>
+            </div>
+            </div>
+        </td>
+        <td><div class="card" style="background-color:#1a1919;width: 14rem;">
+            <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
+            <div class="card-body">
+            <p class="card-text text-secondary">film name</p>
+            <a href="desc.jsp" class="stretched-link">Download</a>
+            </div>
+            </div>
+        </td>
+        <td><div class="card" style="background-color:#1a1919;width: 14rem;">
+            <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
+            <div class="card-body">
+            <p class="card-text text-secondary">film name</p>
+            <a href="desc.jsp" class="stretched-link">Download</a>
+            </div>
+            </div>
+        </td>
+           <td><div class="card" style="background-color:#1a1919;width: 14rem;">
+            <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
+            <div class="card-body">
+            <p class="card-text text-secondary">film name</p>
+            <a href="desc.jsp" class="stretched-link">Download</a>
+            </div>
+            </div>
+        </td>
+            <td><div class="card" style="background-color:#1a1919;width: 14rem;">
+            <img class="card-img-top" src="lionking.jpg" alt="Card image cap">
+            <div class="card-body">
+            <p class="card-text text-secondary">film name</p>
+            <a href="desc.jsp" class="stretched-link">Download</a>
+            </div>
+            </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div></br></br>    
 
 </div>
-<div class="content">
+<div>
+<nav class="navbar fixed-bottom navbar navbar-dark bg-dark">
+  <span class="navbar-text">
+   <a class="navbar-brand" href="#"> Baiscoplk.com</a>
+   
+  </span>
+  <a class="navbar-brand" href="abous.jsp">contact us</a>
+</nav>
 </div>
-    <footer id="myFooter">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-3">
-                    <h2 class="logo"><a href="#"> LOGO </a></h2>
-                </div>
-                <div class="col-sm-2">
-                    <h5>Get started</h5>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Sign up</a></li>
-                        <li><a href="#">Downloads</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-2">
-                    <h5>About us</h5>
-                    <ul>
-                        <li><a href="#">Company Information</a></li>
-                        <li><a href="#">Contact us</a></li>
-                        <li><a href="#">Reviews</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-2">
-                    <h5>Support</h5>
-                    <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Help desk</a></li>
-                        <li><a href="#">Forums</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-3">
-                    <div class="social-networks">
-                        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                        <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
-                    </div>
-                    <button type="button" class="btn btn-default">Contact us</button>
-                </div>
-            </div>
-        </div>
-        <div class="footer-copyright">
-            <p>© 2016 Copyright Text </p>
-        </div>
-    </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
